@@ -64,6 +64,7 @@ class TweetCompose {
   clearInput(){
     this.$el.find("textarea").val("");
     this.$el.find("select").val("");
+    this.$el.find(".mentioned-user").empty();
 
   }
 
